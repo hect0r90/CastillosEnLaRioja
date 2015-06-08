@@ -1,0 +1,58 @@
+html {
+	height: 100%
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0
+}
+
+#map_castillos {
+	height: 350px;
+	width: 100%;
+}
+
+.img_castillo_grid {
+	max-height: 140px;
+	max-width: 140px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.texto-conectado{
+	color: white;
+}
+
+
+
+
+textarea.FormElement { resize: none; }
+
+v_descripcion
+{
+    font-weight: normal;
+    overflow: hidden;
+    white-space: pre;
+    height: 22px;padding: 0 2px 0 2px;
+    border-bottom-width: 1px;
+    border-bottom-color: inherit;
+    border-bottom-style: solid;
+}
+
+
+ .ui-jqgrid tr.jqgrow td {
+     word-wrap: break-word; /* IE 5.5+ and CSS3 */
+     white-space: pre-wrap; /* CSS3 */
+     white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+     white-space: -pre-wrap; /* Opera 4-6 */
+     white-space: -o-pre-wrap; /* Opera 7 */
+     overflow: hidden;
+     height: auto;
+     vertical-align: middle;
+     padding-top: 3px;
+     padding-bottom: 3px
+ }
+
